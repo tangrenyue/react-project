@@ -13,7 +13,7 @@ class DigitalClock extends React.Component {
             this.setState({
                 date: new Date()
             })
-        }, 3000)
+        }, 1000)
     }
     componentWillUpdate(nextProps, nextState) {
         // console.log('componentWillUpdate', nextState)

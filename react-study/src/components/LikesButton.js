@@ -2,7 +2,7 @@ import React from 'react';
 
 class LikesButton extends React.Component {
     constructor(props) {
-        super(props); // 硬性要求
+        super(props); 
         this.state = {
             likes: 0
         }
